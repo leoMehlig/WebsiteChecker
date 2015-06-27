@@ -18,6 +18,18 @@
 		D72FE54618B1F66200CA83A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72FE52518B1F66200CA83A8 /* Cocoa.framework */; };
 		D72FE54E18B1F66200CA83A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D72FE54C18B1F66200CA83A8 /* InfoPlist.strings */; };
 		D72FE55018B1F66200CA83A8 /* WebsiteCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FE54F18B1F66200CA83A8 /* WebsiteCheckerTests.m */; };
+		D72FE55B18B1F95B00CA83A8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FE55A18B1F95B00CA83A8 /* MainViewController.m */; };
+		D72FE56218B2125200CA83A8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72FE56118B2125200CA83A8 /* WebKit.framework */; };
+		D72FE56518B21E0700CA83A8 /* DatumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FE56418B21E0700CA83A8 /* DatumsViewController.m */; };
+		D793821518B5E44B00A5EE55 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793821418B5E44B00A5EE55 /* CodeViewController.m */; };
+		D79B9DF618B4C65F00ADED9A /* URLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B9DF518B4C65F00ADED9A /* URLFile.m */; };
+		D79B9DF918B4C66F00ADED9A /* DateFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B9DF818B4C66F00ADED9A /* DateFile.m */; };
+		D79B9DFC18B4C79900ADED9A /* CodeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B9DFB18B4C79900ADED9A /* CodeFile.m */; };
+		D7A2888818B7330800CF7D57 /* Refresher.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2888718B7330800CF7D57 /* Refresher.m */; };
+		D7A2888B18B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2888A18B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.m */; };
+		D7A2BCA518BF1E6C0009A8A3 /* StringComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2BCA218BF1E6C0009A8A3 /* StringComparator.m */; };
+		D7A2BCA618BF1E6C0009A8A3 /* Difference.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2BCA418BF1E6C0009A8A3 /* Difference.m */; };
+		D7EE445318BC93FD00638073 /* DatePathsItems.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE445218BC93FD00638073 /* DatePathsItems.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +62,29 @@
 		D72FE54B18B1F66200CA83A8 /* WebsiteCheckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebsiteCheckerTests-Info.plist"; sourceTree = "<group>"; };
 		D72FE54D18B1F66200CA83A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D72FE54F18B1F66200CA83A8 /* WebsiteCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebsiteCheckerTests.m; sourceTree = "<group>"; };
+		D72FE55918B1F95B00CA83A8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D72FE55A18B1F95B00CA83A8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
+		D72FE56118B2125200CA83A8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D72FE56318B21E0700CA83A8 /* DatumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatumsViewController.h; sourceTree = "<group>"; };
+		D72FE56418B21E0700CA83A8 /* DatumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatumsViewController.m; sourceTree = "<group>"; };
+		D793821318B5E44B00A5EE55 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		D793821418B5E44B00A5EE55 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		D79B9DF418B4C65F00ADED9A /* URLFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLFile.h; sourceTree = "<group>"; };
+		D79B9DF518B4C65F00ADED9A /* URLFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLFile.m; sourceTree = "<group>"; };
+		D79B9DF718B4C66F00ADED9A /* DateFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateFile.h; sourceTree = "<group>"; };
+		D79B9DF818B4C66F00ADED9A /* DateFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateFile.m; sourceTree = "<group>"; };
+		D79B9DFA18B4C79900ADED9A /* CodeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeFile.h; sourceTree = "<group>"; };
+		D79B9DFB18B4C79900ADED9A /* CodeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeFile.m; sourceTree = "<group>"; };
+		D7A2888618B7330800CF7D57 /* Refresher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Refresher.h; sourceTree = "<group>"; };
+		D7A2888718B7330800CF7D57 /* Refresher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Refresher.m; sourceTree = "<group>"; };
+		D7A2888918B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLWithNextRefreshDateAndIntervalTime.h; sourceTree = "<group>"; };
+		D7A2888A18B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLWithNextRefreshDateAndIntervalTime.m; sourceTree = "<group>"; };
+		D7A2BCA118BF1E6C0009A8A3 /* StringComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringComparator.h; sourceTree = "<group>"; };
+		D7A2BCA218BF1E6C0009A8A3 /* StringComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringComparator.m; sourceTree = "<group>"; };
+		D7A2BCA318BF1E6C0009A8A3 /* Difference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Difference.h; sourceTree = "<group>"; };
+		D7A2BCA418BF1E6C0009A8A3 /* Difference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Difference.m; sourceTree = "<group>"; };
+		D7EE445118BC93FD00638073 /* DatePathsItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePathsItems.h; sourceTree = "<group>"; };
+		D7EE445218BC93FD00638073 /* DatePathsItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePathsItems.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72FE56218B2125200CA83A8 /* WebKit.framework in Frameworks */,
 				D72FE52618B1F66200CA83A8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +131,7 @@
 		D72FE52418B1F66200CA83A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D72FE56118B2125200CA83A8 /* WebKit.framework */,
 				D72FE52518B1F66200CA83A8 /* Cocoa.framework */,
 				D72FE54418B1F66200CA83A8 /* XCTest.framework */,
 				D72FE52718B1F66200CA83A8 /* Other Frameworks */,
@@ -118,6 +155,10 @@
 				D72FE53718B1F66200CA83A8 /* AppDelegate.h */,
 				D72FE53818B1F66200CA83A8 /* AppDelegate.m */,
 				D72FE53A18B1F66200CA83A8 /* MainMenu.xib */,
+				D7A2888C18B74DAE00CF7D57 /* ViewController */,
+				D7A2888D18B74DB900CF7D57 /* Files */,
+				D7A2888E18B74DC600CF7D57 /* Refresher */,
+				D7A2BCA718BF1E710009A8A3 /* Differences */,
 				D72FE53D18B1F66200CA83A8 /* Images.xcassets */,
 				D72FE52C18B1F66200CA83A8 /* Supporting Files */,
 			);
@@ -152,6 +193,56 @@
 				D72FE54C18B1F66200CA83A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A2888C18B74DAE00CF7D57 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D72FE55918B1F95B00CA83A8 /* MainViewController.h */,
+				D72FE55A18B1F95B00CA83A8 /* MainViewController.m */,
+				D72FE56318B21E0700CA83A8 /* DatumsViewController.h */,
+				D72FE56418B21E0700CA83A8 /* DatumsViewController.m */,
+				D793821318B5E44B00A5EE55 /* CodeViewController.h */,
+				D793821418B5E44B00A5EE55 /* CodeViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D7A2888D18B74DB900CF7D57 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79B9DF418B4C65F00ADED9A /* URLFile.h */,
+				D79B9DF518B4C65F00ADED9A /* URLFile.m */,
+				D7EE445118BC93FD00638073 /* DatePathsItems.h */,
+				D7EE445218BC93FD00638073 /* DatePathsItems.m */,
+				D79B9DF718B4C66F00ADED9A /* DateFile.h */,
+				D79B9DF818B4C66F00ADED9A /* DateFile.m */,
+				D79B9DFA18B4C79900ADED9A /* CodeFile.h */,
+				D79B9DFB18B4C79900ADED9A /* CodeFile.m */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		D7A2888E18B74DC600CF7D57 /* Refresher */ = {
+			isa = PBXGroup;
+			children = (
+				D7A2888618B7330800CF7D57 /* Refresher.h */,
+				D7A2888718B7330800CF7D57 /* Refresher.m */,
+				D7A2888918B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.h */,
+				D7A2888A18B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.m */,
+			);
+			name = Refresher;
+			sourceTree = "<group>";
+		};
+		D7A2BCA718BF1E710009A8A3 /* Differences */ = {
+			isa = PBXGroup;
+			children = (
+				D7A2BCA118BF1E6C0009A8A3 /* StringComparator.h */,
+				D7A2BCA218BF1E6C0009A8A3 /* StringComparator.m */,
+				D7A2BCA318BF1E6C0009A8A3 /* Difference.h */,
+				D7A2BCA418BF1E6C0009A8A3 /* Difference.m */,
+			);
+			name = Differences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +344,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72FE53918B1F66200CA83A8 /* AppDelegate.m in Sources */,
+				D793821518B5E44B00A5EE55 /* CodeViewController.m in Sources */,
+				D7A2888B18B7390800CF7D57 /* URLWithNextRefreshDateAndIntervalTime.m in Sources */,
+				D79B9DF618B4C65F00ADED9A /* URLFile.m in Sources */,
+				D7EE445318BC93FD00638073 /* DatePathsItems.m in Sources */,
+				D7A2BCA518BF1E6C0009A8A3 /* StringComparator.m in Sources */,
+				D7A2888818B7330800CF7D57 /* Refresher.m in Sources */,
+				D72FE55B18B1F95B00CA83A8 /* MainViewController.m in Sources */,
+				D79B9DF918B4C66F00ADED9A /* DateFile.m in Sources */,
+				D72FE56518B21E0700CA83A8 /* DatumsViewController.m in Sources */,
 				D72FE53218B1F66200CA83A8 /* main.m in Sources */,
+				D79B9DFC18B4C79900ADED9A /* CodeFile.m in Sources */,
+				D7A2BCA618BF1E6C0009A8A3 /* Difference.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +419,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -354,7 +456,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -464,6 +566,7 @@
 				D72FE55518B1F66200CA83A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D72FE55618B1F66200CA83A8 /* Build configuration list for PBXNativeTarget "WebsiteCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +575,7 @@
 				D72FE55818B1F66200CA83A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
